@@ -33,7 +33,7 @@ public class PlantService {
       updatedPlant.setImageUrl(plant.getImageUrl());
       updatedPlant.setDateadded(plant.getDateadded());
       updatedPlant.setNotes(plant.getNotes());
-      updatedPlant.setDaysToMaturity(plant.getDaysToMaturity());
+      updatedPlant.setDaystomaturity(plant.getDaystomaturity());
       updatedPlant.setSpacing(plant.getSpacing());
       plantRepository.save(updatedPlant);
 

@@ -41,7 +41,7 @@ public class Plant {
 @Column(name= "notes")
 private String notes;
 @Column(name= "daystomaturity")
-private int daysToMaturity;
+private Integer daystomaturity;
 @Column(name= "spacing")
 private String spacing;
 
