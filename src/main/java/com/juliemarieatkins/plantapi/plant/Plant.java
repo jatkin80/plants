@@ -4,6 +4,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Table;
+
+import org.hibernate.type.DateType;
+
 import javax.persistence.Id;
 
 import java.sql.Date;
@@ -33,12 +36,12 @@ public class Plant {
   private String description;
 
   @Column(name= "dateadded")
-  private Date dateadded;
+  private DateType dateadded;
 
 @Column(name= "notes")
 private String notes;
 @Column(name= "daystomaturity")
-private Number daysToMaturity;
+private int daysToMaturity;
 @Column(name= "spacing")
 private String spacing;
 
