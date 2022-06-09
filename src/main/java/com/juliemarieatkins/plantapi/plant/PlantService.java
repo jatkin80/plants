@@ -34,7 +34,9 @@ public class PlantService {
       updatedPlant.setDateadded(plant.getDateadded());
       updatedPlant.setNotes(plant.getNotes());
       updatedPlant.setDaysToMaturity(plant.getDaysToMaturity());
+      updatedPlant.setSpacing(plant.getSpacing());
       plantRepository.save(updatedPlant);
+
       return Optional.of(updatedPlant);
     } else {
       return Optional.empty();

@@ -39,6 +39,8 @@ public class Plant {
 private String notes;
 @Column(name= "daystomaturity")
 private Number daysToMaturity;
+@Column(name= "spacing")
+private String spacing;
 
 
 }
