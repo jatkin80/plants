@@ -36,7 +36,7 @@ public class Plant {
   private String description;
 
   @Column(name= "dateadded")
-  private DateType dateadded;
+  private Date dateadded;
 
 @Column(name= "notes")
 private String notes;
