@@ -4,12 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Table;
-
-import org.hibernate.type.DateType;
-
 import javax.persistence.Id;
 
-import java.sql.Date;
 
 import javax.persistence.Column;
 
@@ -32,16 +28,16 @@ public class Plant {
   @Column(name= "imageurl")
   private String imageUrl;
 
+
+  @Column(name= "daystomaturity")
+private Integer daystomaturity;
+
   @Column(name= "description")
   private String description;
 
-  @Column(name= "dateadded")
-  private Date dateadded;
-
 @Column(name= "notes")
 private String notes;
-@Column(name= "daystomaturity")
-private Integer daystomaturity;
+
 @Column(name= "spacing")
 private String spacing;
 

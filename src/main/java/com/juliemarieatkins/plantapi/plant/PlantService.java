@@ -31,7 +31,6 @@ public class PlantService {
       updatedPlant.setType(plant.getType());
       updatedPlant.setDescription(plant.getDescription());
       updatedPlant.setImageUrl(plant.getImageUrl());
-      updatedPlant.setDateadded(plant.getDateadded());
       updatedPlant.setNotes(plant.getNotes());
       updatedPlant.setDaystomaturity(plant.getDaystomaturity());
       updatedPlant.setSpacing(plant.getSpacing());
