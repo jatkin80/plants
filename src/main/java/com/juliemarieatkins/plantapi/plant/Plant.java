@@ -19,20 +19,22 @@ public class Plant {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
 
-  @Column(name = "name")
+  @Column(name ="name")
   private String name;
 
-  @Column(name= "type")
+  @Column(name="type")
   private String type;
 
-  @Column(name= "imageurl")
+  @Column(name="imageurl")
   private String imageUrl;
 
+  @Column(name="date")
+  private String date;
 
-  @Column(name= "daystomaturity")
+  @Column(name="daystomaturity")
 private Integer daystomaturity;
 
-  @Column(name= "description")
+  @Column(name="description")
   private String description;
 
 @Column(name= "notes")

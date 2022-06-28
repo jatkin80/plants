@@ -78,11 +78,9 @@ public class PlantController {
     return response;
   }
 
-  private Map<String, Iterable<Plant>> createHashPlural(
-    Iterable<Plant> plants
-  ) {
+  private Map<String, Iterable<Plant>> createHashPlural(Iterable<Plant> plants) {
     Map<String, Iterable<Plant>> response = new HashMap<String, Iterable<Plant>>();
-    response.put("Plants", plants);
+    response.put("plants", plants);
 
     return response;
   }
